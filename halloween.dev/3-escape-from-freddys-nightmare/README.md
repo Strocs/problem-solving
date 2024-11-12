@@ -1,5 +1,5 @@
-[Link to Problem](https://www.halloween.dev/en/retos/2024/3)
-[Back to Home]()
+[Link](https://www.halloween.dev/en/retos/2024/3)
+[Back to Home](https://github.com/Strocs/problem-solving)
 
 You are trapped in a nightmare where Freddy Krueger is chasing you 😭. The dream is represented by a maze of cells, where each cell has a numeric value indicating the danger level of that part of the dream.
 

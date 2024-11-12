@@ -1,5 +1,5 @@
-[Link to Problem](https://www.halloween.dev/en/retos/2024/4)
-[Back to Home]()
+[Link](https://www.halloween.dev/en/retos/2024/4)
+[Back to Home](https://github.com/Strocs/problem-solving)
 
 A person has been murdered on Halloween night 🔪. Using a spell 🧙, we managed to hear their last whisper but it is very weak and doesn't allow us to identify who might have been the killer.
 

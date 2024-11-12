@@ -1,5 +1,5 @@
-[Link to Problem](https://www.halloween.dev/en/retos/2024/2)
-[Back to Home]()
+[Link](https://www.halloween.dev/en/retos/2024/2)
+[Back to Home](https://github.com/Strocs/problem-solving)
 
 In an epic battle between zombies 🧟 and humans 👮, both sides have a list of fighters with specific attack powers.
 

@@ -1,5 +1,5 @@
-[Link to Problem](https://www.halloween.dev/en/retos/2024/5)
-[Back to Home]()
+[Link](https://www.halloween.dev/en/retos/2024/5)
+[Back to Home](https://github.com/Strocs/problem-solving)
 
 You are trapped in Silent Hill, in a square room of size n x n and the feared Pyramid Head (▲) is somewhere in the room, moving towards you (T).
 
@@ -14,7 +14,7 @@ The room is represented by an n x n matrix:
 
 Write a function to determine if Pyramid Head will be able to reach you. If Pyramid Head can reach you, return the number of steps it takes to achieve this, if it cannot reach you then return -1.
 
-```
+```js
 const room = [
   ['.', '.', '#', '.', '▲'],
   ['#', '.', '#', '.', '#'],
