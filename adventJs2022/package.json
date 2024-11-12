@@ -1,0 +1,17 @@
+{
+  "name": "adventjs-by-strocs",
+  "version": "1.0.0",
+  "description": "Solutions for challenges from https://adventjs.dev/ by midudev",
+  "type": "module",
+  "scripts": {
+    "01": "node Reto#01",
+    "02": "node Reto#02",
+    "03": "node Reto#03",
+    "04": "node Reto#04",
+    "05": "node Reto#05",
+    "06": "node Reto#06",
+    "07": "node Reto#07"
+  },
+  "author": "Ignacio Molina P.",
+  "license": "MIT"
+}
