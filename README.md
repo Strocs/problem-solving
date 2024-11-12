@@ -17,17 +17,15 @@ This will be the manifest of my progress and improvements.
 
 ## [halloween.dev](https://halloween.dev)
 
-- [x] \[Easy] [ 🧙 Create the perfect potion ]()
-- [x] \[Easy] [ 🧟 Zombie horde ]()
-- [x] \[Medium] [ 🛌 Escape from Freddy's nightmare ]()
-- [x] \[Medium] [ 🔪 Find the killer ]()
-- [x] \[Hard] [ ▲ Terror on Pyramid Head ]()
+- [x] \[Easy] [ 🧙 Create the perfect potion ](/halloween.dev/create-the-perfect-potion)
+- [x] \[Easy] [ 🧟 Zombie horde ](/halloween.dev/zombie-horde)
+- [x] \[Medium] [ 🛌 Escape from Freddy's nightmare ](/halloween.dev/escape-from-freddys-nightmare)
+- [x] \[Medium] [ 🔪 Find the killer ](/halloween.dev/find-the-killer)
+- [x] \[Hard] [ ▲ Terror on Pyramid Head ](/halloween.dev/terror-on-pyramid-head)
 
-## [AdventJs 2022](https://adventjs.com)
+## [AdventJs 2022](https://2022.adventjs.dev/)
 
-## [Codember](https://codember.org)
-
-
+## [Codember](https://codember.dev/)
 
 ## TODO
   - [ ] Improve folder navigation
