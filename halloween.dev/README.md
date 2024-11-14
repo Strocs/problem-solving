@@ -1,3 +1,5 @@
+[Back](/)
+
 ### ⭐ Solutions for:
 # [Halloween.dev](https://halloween.dev) 🎃
 
