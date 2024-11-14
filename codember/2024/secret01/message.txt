@@ -1,0 +1,9 @@
+Aquí estás... ¡Justo a tiempo! Te hablo desde el planeta Python del universo 616.
+
+Algo extraño está ocurriendo... ¡El planeta JavaScript se ha vuelto loco y quiere arrebatar nuestro lugar! Al parecer, tu universo y el mío se están fusionando, y si no hacemos algo ahora, todo podría colapsar.
+
+Necesitamos que nos envíes la fecha de la prima versión de Codember.dev, pero debe estar en milisegundos. Usa el tiempo 00:00 en UTC. ¡Debería funcionar! ¡En este universo usamos un formato diferente al de ustedes! ¡Date prisa!
+
+Tal vez, si logramos alinear el tiempo, podremos tener una oportunidad. Puedes enviarlo aquí: https://codember.dev/api/multiverse-channel.json?time=[your_time_ms]
+
+¡Rápido, el tiempo corre en nuestra contra!
