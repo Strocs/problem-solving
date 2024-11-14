@@ -3,9 +3,7 @@
 
 Created by [Midudev](https://twitter.com/midudev) ❤️
 
-&nbsp;
-
-# Progress 📅
+## Progress 📅
 
 |  | Challenge  | Difficulty |
 | ------------- | -------------- | -------------- |
