@@ -9,7 +9,7 @@ Take a look! created by [Midudev](https://twitter.com/midudev) ❤️
 <!--toc:start-->
 - [Codember 🔑](./)
   - Edition 
-    - [2022](./2022/)
     - [2023](./2023/)
+    - [2024](./2024/)
 <!--toc:end-->
 
