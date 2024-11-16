@@ -12,7 +12,7 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | ✔️ | [ 😏 The naughty elf ](./3-the-naughty-elf/) | Easy |
 | ✔️ | [ 😵 Turn the parentheses around ](./4-turn-the-parentheses-around/) | Medium |
 | ✔️ | [ 🛷 Santa's CyberTruck ](./5-santas-cybertruck/) | Medium |
-|  | [ 🦌 The reindeer on trial ](./6-the-reindeer-on-trial/) | Easy |
+| ✔️ | [ 🦌 The reindeer on trial ](./6-the-reindeer-on-trial/) | Easy |
 |  | [ 📦 The 3D boxes ](./7-the-3d-boxes/) | Easy |
 |  | [ 🏬 Sorting the warehouse ](./8-sorting-the-warehouse/) | Medium |
 |  | [ 🚦 Switch the lights ](./9-switch-the-lights/) | Easy |
