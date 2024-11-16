@@ -9,7 +9,7 @@ describe('the-3d-boxes', () => {
 
   test('2', () => {
     const result = drawGift(4, "+")
-    const expected = '   ####\n  #++##\n #++#+#\n####++#\n#++#+#\n#++##\n####'
+    const expected = '   ####\n  #++##\n #++#+#\n####++#\n#++#+#\n#++##\n####\n'
     expect(result).toBe(expected)
   })
 
