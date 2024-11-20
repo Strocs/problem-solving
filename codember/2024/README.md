@@ -18,7 +18,7 @@
 | ✔️ | S4 | <img src="https://codember.dev/camera.png" height="32"/>
 | ✔️ | S5 | <img src="https://codember.dev/confetti.png" height="32"/>
 | ✔️ | S6 | <img src="https://codember.dev/hacker.webp" height="32"/>
-|  | S7 | 
-|  | S8 | 
+| ✔️ | S7 | <img src="https://codember.dev/bomb.png" height="32"/>
+| ✔️ | S8 | <img src="https://codember.dev/error.png" height="32"/>
 | ✔️ | S9 | <img src="https://codember.dev/ping.png" height="32"/>
 | ✔️ | S10 | <img src="https://codember.dev/pingpong.png" height="32"/>
