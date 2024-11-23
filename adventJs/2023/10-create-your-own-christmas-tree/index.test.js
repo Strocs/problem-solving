@@ -8,7 +8,7 @@ describe('create-your-own-christmas-tree', () => {
   })
 
   test('2', () => {
-    const result = createChristmasTree(x, 3)
+    const result = createChristmasTree('x', 3)
     const expected = "  x\n x x\nx x x\n  |\n"
     expect(result).toBe(expected)
   })
@@ -20,8 +20,8 @@ describe('create-your-own-christmas-tree', () => {
   })
 
   test('4', () => {
-    const result = createChristmasTree(123, 5)
-    const expected = "   1\n   2 3\n  1 2 3\n 1 2 3 1\n2 3 1 2 3\n    |\n"
+    const result = createChristmasTree('123', 5)
+    const expected = "    1\n   2 3\n  1 2 3\n 1 2 3 1\n2 3 1 2 3\n    |\n"
     expect(result).toBe(expected)
   })
 
