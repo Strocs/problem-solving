@@ -15,8 +15,8 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 |✔️| [ 🦌 The reindeer on trial ](./6-the-reindeer-on-trial/) | Easy |
 |✔️| [ 📦 The 3D boxes ](./7-the-3d-boxes/) | Easy |
 |✔️| [ 🏬 Sorting the warehouse ](./8-sorting-the-warehouse/) | Medium |
-| | [ 🚦 Switch the lights ](./9-switch-the-lights/) | Easy |
-| | [ 🎄 Create your own Christmas tree ](./10-create-your-own-christmas-tree/) | Easy |
+|✔️| [ 🚦 Switch the lights ](./9-switch-the-lights/) | Easy |
+|✔️| [ 🎄 Create your own Christmas tree ](./10-create-your-own-christmas-tree/) | Easy |
 | | [ 📖 The studious elves ](./11-the-studious-elves/) | Medium |
 | | [ 📸 Is it a valid copy? ](./12-is-it-a-valid-copy/) | Medium |
 | | [ ⌚️ Calculating the time ](./13-calculating-the-time/) | Easy |
