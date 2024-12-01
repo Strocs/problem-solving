@@ -5,6 +5,7 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 
 ## Progress 📅
 
-|  | Challenge  | Difficulty | Score |
-| - | --------- | ---------- | ----- |
-|✔️| [ 🎁 First-gift-repeated ](./1-first-gift-repeated/) | Easy | ⭐⭐⭐⭐⭐ |
+|  | Challenge  | Difficulty | Score | Tech |
+| - | --------- | ---------- | ----- | ---- |
+|✔️| [ 🎁 First gift repeated ](./1-first-gift-repeated/) | Easy | ⭐⭐⭐⭐⭐ | Javascript |
+|✔️| [ 🎁 Framing names ](./2-framing-names/) | Easy | ⭐⭐⭐⭐⭐ | Python |
