@@ -9,3 +9,5 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | - | --------- | ---------- | ----- | ---- |
 |✔️| [ 🎁 First gift repeated ](./1-first-gift-repeated/) | Easy | ⭐⭐⭐⭐⭐ | Javascript |
 |✔️| [ 🎁 Framing names ](./2-framing-names/) | Easy | ⭐⭐⭐⭐⭐ | Python |
+|✔️| [ 🏗️ Organizing the inventory ](./3-organizing-the-inventory/) | Easy | ⭐⭐⭐⭐⭐ | Python |
+|✔️| [ 🎄 Decorating the Christmas tree ](./4-decorating-the-christmas-tree/) | Medium | ⭐⭐⭐⭐⭐ | Python |
