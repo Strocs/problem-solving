@@ -1,23 +1,41 @@
 def compile(instructions):
-    # Code here
-    return 0
+    registry = {}
+    index = 0
 
+    def createReg(reg):
+        registry.setdefault(reg, 0)
 
-instructions = [
-    "MOV -1 C",  # copies -1 to register 'C',
-    "INC C",  # increments the value of register 'C'
-    "JMP C 1",  # jumps to the instruction at index 1 if 'C' is 0
-    "MOV C A",  # copies register 'C' to register 'A',
-    "INC A",  # increments the value of register 'A'
-]
+    def mov(value, reg):
+        createReg(reg)
+        try:
+            registry[reg] = int(value)
+        except ValueError:
+            registry[reg] = registry[value]
+        nonlocal index
+        index += 1
 
-compile(instructions)  # -> 2
+    def inc(reg):
+        createReg(reg)
+        registry[reg] += 1
+        nonlocal index
+        index += 1
 
-# Step-by-step execution:
-# 0: MOV -1 C -> The register C receives the value -1
-# 1: INC C    -> The register C becomes 0
-# 2: JMP C 1  -> C is 0, jumps to the instruction at index 1
-# 1: INC C    -> The register C becomes 1
-# 2: JMP C 1  -> C is 1, the instruction is ignored
-# 3: MOV C A  -> Copies register C to A. Now A is 1
-# 4: INC A    -> The register A becomes 2
+    def dec(reg):
+        createReg(reg)
+        registry[reg] -= 1
+        nonlocal index
+        index += 1
+
+    def jmp(reg, jump):
+        createReg(reg)
+        nonlocal index
+        index = int(jump) if registry[reg] == 0 else index + 1
+
+    actions = {"MOV": mov, "INC": inc, "DEC": dec, "JMP": jmp}
+
+    while index < len(instructions):
+        action, *instruction = instructions[index].split(" ")
+        print({"index": index, "reg": registry, "action": action})
+        actions[action](*instruction)
+
+    return registry["A"]
