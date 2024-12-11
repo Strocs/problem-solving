@@ -16,5 +16,6 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 |✔️| [ 😈 The Grinch's attack ](./7-the-grinchs-attack/) | Medium | ⭐⭐⭐⭐⭐ | Python |
 |✔️| [ 🦌 The reno race ](./8-the-reno-race/) | Easy | ⭐⭐⭐⭐⭐ | Python |
 |✔️| [ 🚂 The magic train ](./9-the-magic-train/) | Medium | ⭐⭐⭐⭐⭐ | Python |
-|✔️| [ 🧑‍💻 The elfish assembler ](./10-the-elfish-assembler/) | Medium | ⭐⭐⭐⭐⭐ | Python |
+|✔️| [ 🧑‍💻 The elfish assembler ](./10-the-elfish-assembler/) | Medium | ⭐⭐⭐⭐⭐ | Javascript |
+|✔️| [ 🏴‍☠️  Filenames encoded ](./11-filenames-encoded/) | Easy | ⭐⭐⭐⭐⭐ | Javascript |
 
