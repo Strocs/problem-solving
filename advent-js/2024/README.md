@@ -21,3 +21,4 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | ✔️ | [💵 How much does the tree cost? ](./12-how-much-does-the-tree-cost/) | Easy | ⭐⭐⭐⭐⭐ | Javascript |
 | ✔️ | [🤖 Is the robot back? ](./13-is-the-robot-back/) | Hard | ⭐⭐⭐⭐⭐ | Javascript |
 | ✔️ | [🦌 Weaving the reno ](./14-Weaving-the-reno/) | Easy | ⭐⭐⭐⭐⭐ | Javascript |
+| ✔️ | [✏️  Drawing tables ](./15-drawing-tables/) | Easy | ⭐⭐⭐⭐⭐ | Javascript |
