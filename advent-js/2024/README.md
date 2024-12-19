@@ -24,3 +24,5 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | ✔️  | [🦌 Weaving the reno ](./14-Weaving-the-reno/)                         | Easy       | ⭐⭐⭐⭐⭐ | Javascript |
 | ✔️  | [✏️ Drawing tables ](./15-drawing-tables/)                             | Easy       | ⭐⭐⭐⭐⭐ | Javascript |
 | ✔️  | [❄️ Cleaning the snow path ](./16-cleaning-the-snow-path/)             | Easy       | ⭐⭐⭐⭐⭐ | Javascript |
+| ✔️  | [💣 Grinch's bombs ](./17-grinchs-bomb/)                               | Medium     | ⭐⭐⭐⭐⭐ | Javascript |
+| ✔️  | [📇 Santa's Magic Agenda ](./18-santas-magic-agenda/)                  | Hard       | ⭐⭐⭐⭐⭐ | Javascript |
