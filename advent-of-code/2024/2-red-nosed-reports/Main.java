@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,16 +6,24 @@ import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) {
-    List<int[]> input = parseFile();
+    List<int[]> input = getInput();
     PartOne(input);
     PartTwo(input);
   }
 
   private static void PartOne(List<int[]> input) {
     int partOne = 0;
-
     for (int[] line : input) {
-      partOne += isSafe(line) ? 1 : 0;
+      Boolean last = null;
+      for (int i = 1; i < line.length; i++) {
+        int diff = line[i] - line[i - 1];
+        if (Math.abs(diff) < 1 || Math.abs(diff) > 3 || last != null && last != diff < 0) {
+          continue;
+        }
+
+        last = diff < 0;
+      }
+      partOne++;
     }
     System.out.println("Part One: " + partOne);
   }
@@ -25,49 +32,28 @@ public class Main {
     int partTwo = 0;
 
     for (int[] line : input) {
-      partTwo += isSafeTwo(line) ? 1 : 0;
+
+      Boolean last = null;
+      boolean passed = false;
+
+      for (int i = 1; i < line.length; i++) {
+        int diff = line[i] - line[i - 1];
+
+        // Fix this
+        if (Math.abs(diff) < 1 || Math.abs(diff) > 3 || last != null && last != diff < 0) {
+          passed = true;
+          continue;
+        }
+
+        last = diff < 0;
+      }
+      partTwo++;
     }
+
     System.out.println("Part Two: " + partTwo);
   }
 
-  private static boolean isSafeTwo(int[] levels) {
-    Boolean last = null;
-    boolean passed = false;
-    for (int i = 1; i < levels.length; i++) {
-      int diff = levels[i] - levels[i - 1];
-
-      // Fix this
-      if (Math.abs(diff) < 1 || Math.abs(diff) > 3) {
-        if (passed)
-          return false;
-        passed = true;
-      }
-      if (last != null && last != diff < 0) {
-        if (passed)
-          return false;
-        passed = true;
-      }
-
-      last = diff < 0;
-    }
-    return true;
-  }
-
-  private static boolean isSafe(int[] levels) {
-    Boolean last = null;
-    for (int i = 1; i < levels.length; i++) {
-      int diff = levels[i] - levels[i - 1];
-      if (Math.abs(diff) < 1 || Math.abs(diff) > 3)
-        return false;
-      if (last != null && last != diff < 0)
-        return false;
-
-      last = diff < 0;
-    }
-    return true;
-  }
-
-  private static List<int[]> parseFile() {
+  private static List<int[]> getInput() {
     try {
       Scanner scanner = new Scanner(new File("input.txt"));
       List<int[]> result = new ArrayList<int[]>();
