@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
   public static void main(String[] args) {
@@ -34,14 +35,16 @@ public class Main {
     for (int[] line : input) {
 
       Boolean last = null;
-      boolean passed = false;
+      Integer idxToAvoid = null;
 
       for (int i = 1; i < line.length; i++) {
         int diff = line[i] - line[i - 1];
 
         // Fix this
         if (Math.abs(diff) < 1 || Math.abs(diff) > 3 || last != null && last != diff < 0) {
-          passed = true;
+          if (idxToAvoid != null)
+            break;
+          idxToAvoid = i;
           continue;
         }
 
