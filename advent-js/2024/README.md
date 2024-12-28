@@ -30,5 +30,5 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | ✔️  | [🎁 Find missing and duplicate gifts ](./20-find-missing-and-duplicate-gifts/) | Easy | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 | ✔️  | [🎄 Calculate the height of the Christmas tree ](./21-calculate-the-height-of-the-christmas-tree/) | Easy | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 | ✔️  | [🎁 Generate gift combinations ](./22-generate-gift-combination/) | Medium | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
-
+| ✔️  | [🔢 Find the missing numbers ](./23-find-the-missing-numbers/) | Easy | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 
