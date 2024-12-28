@@ -1,5 +1,5 @@
 def draw_table(data: list[dict[str, str | int]]) -> str:
-    w = []
+    width = [0] * len(data[0])
     c = [[]]
     for r in range(len(data)):
         d = [*data[r].items()]
@@ -10,8 +10,8 @@ def draw_table(data: list[dict[str, str | int]]) -> str:
                 c[0].append(h[0].upper() + h[1:])
             t.append(str(b))
             l = len(h) if len(h) > len(str(b)) else len(str(b))
-            z = w[i] if len(w) > i else 0
-            w.insert(i, z if z > l else l)
+            z = width[i] if len(width) > i else 0
+            width.insert(i, z if z > l else l)
         c.append(t)
 
     t = ""
@@ -20,8 +20,8 @@ def draw_table(data: list[dict[str, str | int]]) -> str:
         s = ""
         h = ""
         for j in range(len(c[i])):
-            h += "+" + ("-" * (w[j] + 2))
-            s += "| " + c[i][j] + (" " * (w[j] - len(c[i][j]) + 1))
+            h += "+" + ("-" * (width[j] + 2))
+            s += "| " + c[i][j] + (" " * (width[j] - len(c[i][j]) + 1))
         h += "+"
         s += "|\n"
         if not hs:
@@ -32,3 +32,6 @@ def draw_table(data: list[dict[str, str | int]]) -> str:
     t += hs
 
     return t
+
+
+print(draw_table([{"name": "Alice", "city": "London"}]))
