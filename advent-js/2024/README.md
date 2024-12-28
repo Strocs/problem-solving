@@ -32,3 +32,5 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | ✔️  | [🎁 Generate gift combinations ](./22-generate-gift-combination/) | Medium | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 | ✔️  | [🔢 Find the missing numbers ](./23-find-the-missing-numbers/) | Easy | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 
+| ✔️  | [🎯 Calculate the completed percentage ](./26-calculate-the-completed-percentage/) | ? | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
+
