@@ -31,6 +31,7 @@ Created by [Midudev](https://twitter.com/midudev) ❤️
 | ✔️  | [🎄 Calculate the height of the Christmas tree ](./21-calculate-the-height-of-the-christmas-tree/) | Easy | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 | ✔️  | [🎁 Generate gift combinations ](./22-generate-gift-combination/) | Medium | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 | ✔️  | [🔢 Find the missing numbers ](./23-find-the-missing-numbers/) | Easy | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
-
+| ✔️  | [🪞 Check if trees are magical mirrors ](./24-check-if-trees-are-magical-mirrors/) | Medium | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
+|   | [🪄 Execute the magical language ](./25-execute-the-magical-language/) | Medium | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 | ✔️  | [🎯 Calculate the completed percentage ](./26-calculate-the-completed-percentage/) | ? | ⭐⭐⭐⭐⭐ | Javascript, Typescript, Python |
 
