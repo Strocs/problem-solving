@@ -5,47 +5,49 @@
 function execute(code) {
   let current = 0
   let i = 0
-  while (i < code.length) {
-    const c = code[i]
-    if (c === "+") current++
-    if (c === '-') current--
-    if (c === '{') {
-      for (let j = i + 1; j < code.length - 1; j++) {
-        if (current === '}') break
-        if (current === 0) {
-          if (code[j] !== '}') continue
-          i = j
-          break
-        }
-        if (code[j] === "+") current++
-        if (code[j] === '-') current--
+  const rules = {
+    '+': () => { current++ },
+    '-': () => { current-- },
+    '>': () => { },
+    '{': (idx) => {
+      const isExecutable = current !== 0
+      let j = idx + 1
+      while (code[j] !== '}') {
+        if (isExecutable) j = rules[code[j]](j, j) ?? j
+        j++
       }
-    }
+      return j
+    },
+    '[': function loop(idx, base) {
+      let j = idx + 1
+      const isClosed = code[j] === ']'
+      if (isClosed && current === 0) return j
+      loop(isClosed ? base : rules[code[j]](j, base) ?? j, base)
 
-    if (c === '[') {
-      for (let j = i + 1; j < code.length; j++) {
-        if (current === 0) {
-          if (code[j] !== ']') continue
-          i = j
-          break
-        }
-        if (code[j] === "+") current++
-        if (code[j] === '-') current--
-        if (code[j] === ']') {
-          j = i
-        }
-      }
+      // for (let j = idx + 1; j < code.length; j++) {
+      //   if (code[j] === "]") {
+      //     if (current === 0) return j
+      //     j = idx
+      //     continue
+      //   }
+      //   j = rules[code[j]](j) ?? j
+      // }
     }
-    i++ // i = 7
+  }
+  while (i < code.length) {
+    i = rules[code[i]](i, i) ?? i
+    i++
   }
   return current
 }
 
-// console.log(execute('+++')) // 3
-// console.log(execute('+--')) // -1
-console.log(execute('>+++{-}')) // 0
-// console.log(execute('>>>+{++}')) // 3
-// console.log(execute('+{[-]+}+')) // 2
-// console.log(execute('{+}{+}{+}')) // 0
-// console.log(execute('------[+]++')) // 2
-// console.log(execute('-[++{-}]+{++++}')) // 5
+
+console.log(execute('+++')) // 3
+console.log(execute('+--')) // -1
+console.log(execute('>+++[-]')) // 0
+console.log(execute('>>>+{++}')) // 3
+console.log(execute('+{[-]+}+')) // 2
+console.log(execute('{+}{+}{+}')) // 0
+console.log(execute('------[+]++')) // 2
+console.log(execute('-[++{-}]+{++++}')) // 5
+
