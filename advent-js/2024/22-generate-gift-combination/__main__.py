@@ -18,6 +18,3 @@ def generate_gift_sets(gifts):
         combinations[index:index] = group
 
     return [[first]] + combinations
-
-
-print(generate_gift_sets(["car", "doll", "puzzle"]))

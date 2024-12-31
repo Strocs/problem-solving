@@ -32,6 +32,3 @@ def draw_table(data: list[dict[str, str | int]]) -> str:
     t += hs
 
     return t
-
-
-print(draw_table([{"name": "Alice", "city": "London"}]))
